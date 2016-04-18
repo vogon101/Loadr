@@ -36,7 +36,7 @@ To download a template at page load, set it up like this:
 	function renderName (name) {
 		Loader.renderTemplateAppend("#test", "#content", {name:name})
 	}	
-	/Download all templates when the page has loaded
+	//Download all templates when the page has loaded
 	(document).ready(Loader.load)
     </script>
   </body>
